@@ -42,3 +42,9 @@ h1, h2, h3, h4, h5, h6 {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.weather__header {
+  color: #000;
+  font-size: 30px;
+  font-size: clamp(30px, 18px + 4vw, 66px);
+  margin: 0 0 30px 0;
+}
